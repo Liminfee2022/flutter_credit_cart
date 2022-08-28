@@ -40,6 +40,15 @@ class MyApp extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(12))),
           ),
         ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+          style: OutlinedButton.styleFrom(
+            primary: Colors.black,
+            minimumSize: const Size(double.infinity, 56),
+            shape: const RoundedRectangleBorder(
+              borderRadius: BorderRadius.all(Radius.circular(12)),
+            ),
+          ),
+        ),
       ),
       home: const AdNewCartScreen(),
     );
